@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.input-wrapper input {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#input-hidden {
+  padding-left: 2px;
+  padding-top: 2px;
+  font-family: sans-serif;
+  color: gray;
+  font-size: 14px;
+}
+#input {
+  z-index: -1;
+  color: transparent;
+  font-size: 14px;
+}
+#user-input {
+  color: black;
+}
